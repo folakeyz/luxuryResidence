@@ -1,0 +1,94 @@
+.containers{
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 3rem 10rem;
+    background:white;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    grid-gap:20px;
+}
+.card {
+    width: 100%;
+    padding: 30px 20px 59px 20px;
+    border: 0;
+    height: 45rem;
+    text-align: justify;
+    overflow: hidden;
+  }
+  .card ul li{
+      line-height: 3rem;
+      text-align: justify;
+  }
+  .btn{
+    padding: .5rem 2rem;
+    background:goldenrod;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+ 
+@media (max-height: 500px) {
+    .containers{
+        padding: 10px;
+    }
+    .grid{
+    grid-template-columns: 100%;
+    }
+    .card {
+        height: 100%;
+      }
+  }
+  
+  @media (max-width: 640px) {
+    .containers{
+        padding: 10px;
+    }
+    .grid{
+        grid-template-columns: 100%;
+        }
+        .card {
+            height: 100%;
+          }
+  }
+  
+  @media (max-height: 600px) {
+    .containers{
+        padding: 10px;
+    }
+  
+    .grid{
+        grid-template-columns: 100%;
+        }
+        .card {
+            height: 100%;
+          }
+  }
+  
+  @media (max-width: 640px) {
+    .containers{
+        padding: 10px;
+    }
+    .grid{
+        grid-template-columns: 100%;
+        }
+        .card {
+            height: 100%;
+          }
+        
+  }
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    .containers{
+        padding: 10px;
+    }
+    .grid{
+        grid-template-columns: 100%;
+        }
+        .card {
+            height: 100%;
+          }
+        
+  }
